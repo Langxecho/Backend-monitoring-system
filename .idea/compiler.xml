@@ -2,16 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="langxecho-monitor-client (1)" />
-        <module name="langxecho-monitor-client (2)" />
+        <module name="langxecho-monitor-client" />
+        <module name="langxecho-monitor-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="langxecho-monitor-client" target="17" />
+      <module name="langxecho-monitor-client (1)" target="17" />
+      <module name="langxecho-monitor-client (2)" target="17" />
       <module name="my-project-backend" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -20,6 +22,7 @@
       <module name="langxecho-monitor-client" options="-parameters" />
       <module name="langxecho-monitor-client (1)" options="-parameters" />
       <module name="langxecho-monitor-client (2)" options="-parameters" />
+      <module name="langxecho-monitor-server" options="-parameters" />
       <module name="my-project-backend" options="-parameters" />
     </option>
   </component>
