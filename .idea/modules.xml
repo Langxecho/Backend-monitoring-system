@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/langxecho-monitor-jwt.iml" filepath="$PROJECT_DIR$/langxecho-monitor-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/langxecho-monitor-web/langxecho-monitor-web.iml" filepath="$PROJECT_DIR$/langxecho-monitor-web/langxecho-monitor-web.iml" />
     </modules>
   </component>
 </project>

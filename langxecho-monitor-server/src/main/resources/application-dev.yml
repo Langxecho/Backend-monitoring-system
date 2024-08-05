@@ -1,9 +1,15 @@
 # 开发环境配置
+server:
+  port: 8081
 springdoc:
   paths-to-match: /api/**
   swagger-ui:
     operations-sorter: alpha
 spring:
+  influx:
+    url: http://localhost:8086
+    user: langxecho
+    password: wqy15062290448
   mail:
     host: smtp.163.com
     username: javastudy111@163.com
@@ -39,5 +45,4 @@ spring:
       origin: '*'
       credentials: false
       methods: '*'
-server:
-  port: 8081
+
